@@ -32,7 +32,6 @@ const Counter: React.FC = () =>{
                 </div>
                 {/* PART 3*/}
                 <div className="flex flex-row  flex-wrap content-baseline  gap-2">
-
                     <p
                         className="content-center text-violet-950 font-extrabold mr-10">
                         Part 3 - CUSTOM VALUE
@@ -44,13 +43,11 @@ const Counter: React.FC = () =>{
                         value={value}
                         onChange={handleCustomValue}
                     />
-
                     <button
                         className="bg-blue-500 px-4 py-1 text-white hover:bg-blue-950 hover:text-amber-50"
                         onClick={() => setCount(count + value)}>
                         INCREMENT
                     </button>
-
                     <button
                         className="bg-blue-500 px-4 py-1 text-white hover:bg-blue-950 hover:text-amber-50"
                         onClick={() => setCount(count - value)}>
