@@ -31,7 +31,7 @@ const Counter: React.FC = () =>{
                     </button>
                 </div>
                 {/* PART 3*/}
-                <div className="flex flex-row content-baseline  gap-2">
+                <div className="flex flex-row  flex-wrap content-baseline  gap-2">
 
                     <p
                         className="content-center text-violet-950 font-extrabold mr-10">
