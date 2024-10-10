@@ -18,19 +18,19 @@ const ListOfNames: React.FC = () =>{
 
     return(
         <>
-            <div className="grid grid-cols-1 gap-y-3">
+            <div className="flex flex-col gap-y-3">
 
-                <div className="flex gap-x-2.5">
+                <div className="flex gap-x-2.5 items-start py-2">
                     Add New
                     <input
                         type="text"
                         placeholder="Add new Names"
                         onChange={handleNewName}
                         value={newName}
-                        className="bg-gray-200 px-4"/>
+                        className="bg-gray-200 px-4 py-3"/>
 
                     <button
-                        className="bg-blue-300 px-10"
+                        className="bg-blue-300 px-10 py-3"
                         onClick={handleAddName}
                     >
                         Add
