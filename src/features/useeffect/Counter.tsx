@@ -8,13 +8,8 @@ const Counter: React.FC = () =>{
 
     return(
         <>
-
-
             <div className="flex flex-col gap-y-5 mt-10">
-
                 <h1 className="content-center text-xl font-extrabold">Count: {count}</h1>
-
-
                 {/*PART 1*/}
                 <div className="flex flex-row content-baseline  gap-2">
                     <p className="content-center text-violet-950 font-extrabold mr-10">Part 1 - Increment</p>
@@ -31,13 +26,9 @@ const Counter: React.FC = () =>{
                         Decrement
                     </button>
                 </div>
-
             </div>
-
         </>
     );
-
-
 }
 
 export default Counter;
